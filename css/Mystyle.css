@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.bag-p {
+    background-color: hotpink;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.bag-b {  background-color:aquamarine;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.navbar-collapse { background-color: pink;
+}
+
+.btn-primary {
+	background-color:lightpink;
+}
+
+.btn-secondary { 
+	background-color: cadetblue;
+}
+
+.webbackground {
+	background-color: blanchedalmond; 
+}
+.uber {
+    color: #31C1E2;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background:#68D3C9 ;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #68D3C9;
+  color: white
+}
+
+.ht {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #31C1E2;
+    ;
+    font-style: oblique;	
+}
+
+h2 {
+    
+    color: #31C1E2;
+}
+
+.calp {
+    text-align: center;
+    color: #31C1E2;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+.calf .col-sm-7 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.bg-red {
+    background-color: #C02D2D;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.bg-blue {
+	background-color: #3C36A5
+}
+
